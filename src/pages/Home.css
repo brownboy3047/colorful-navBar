@@ -1,0 +1,26 @@
+.users {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.users-info {
+  border: none;
+  background-color: rgb(194, 193, 193);
+  border-radius: 2rem;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  width: 20rem;
+  height: 22rem;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.users-info.dark {
+  color: black;
+}
+
+.users-info img {
+  border-radius: 50%;
+}

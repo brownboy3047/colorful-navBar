@@ -1,0 +1,28 @@
+.color-selector {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.theme-colors {
+  display: flex;
+}
+
+.theme-colors div {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-left: 15px;
+  border-radius: 50%;
+}
+
+.mode-selector {
+  margin-right: auto;
+}
+
+.mode-selector img {
+  width: 25px;
+  height: 25px;
+}
